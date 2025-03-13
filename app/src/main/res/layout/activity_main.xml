@@ -17,8 +17,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enter two numbers to perform a calculation"
-            android:textSize="30dp"
+            android:text="@string/enter_two_numbers_to_perform_a_calculation"
+            android:textSize="30sp"
             android:textAlignment="center"
             android:textStyle="bold"
             android:layout_marginHorizontal="40dp"
@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="(Tip: Click on the sign in the middle to change the operator)"
+            android:text="@string/tip_click_on_the_sign_in_the_middle_to_change_the_operator"
             android:textSize="11sp"
             android:textStyle="italic"
             android:textAlignment="center"
@@ -44,28 +44,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="textEnd"
-                android:hint="Number"/>
+                android:textSize="20sp"
+                android:hint="@string/number"/>
             <TextView
                 android:id="@+id/operator"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:gravity="center"
-                android:text="+"
+                android:text="@string/plus"
                 android:layout_marginHorizontal="10dp"
-                android:textSize="25dp"/>
+                android:textSize="25sp"/>
             <EditText
                 android:id="@+id/secondNumber"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="textStart"
-                android:hint="Number"/>
+                android:textSize="20sp"
+                android:hint="@string/number"/>
         </LinearLayout>
         <TextView
             android:id="@+id/result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
-            android:textSize="30dp"
+            android:text="@string/zero"
+            android:textSize="30sp"
             android:textAlignment="center"
             android:textStyle="bold"
             android:layout_marginTop="40dp"/>

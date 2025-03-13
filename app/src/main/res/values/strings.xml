@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Math App</string>
+    <string name="enter_two_numbers_to_perform_a_calculation">Enter two numbers to perform a calculation</string>
+    <string name="tip_click_on_the_sign_in_the_middle_to_change_the_operator">(Tip: Click on the sign in the middle to change the operator)</string>
+    <string name="number">Number</string>
+    <string name="plus">+</string>
+    <string name="zero">0</string>
 </resources>
